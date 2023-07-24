@@ -1,0 +1,2 @@
+/data_b/jiaxi.he/lab/euler/build/usr/bin/1
+/data_b/jiaxi.he/lab/euler/build/usr/bin/2
