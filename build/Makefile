@@ -182,59 +182,59 @@ depend:
 	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
 .PHONY : 1/fast
 
-data_b/jiaxi.he/lab/euler/1/1.o: data_b/jiaxi.he/lab/euler/1/1.c.o
+data_b/jiaxi.he/lab/euler/question/1/1.o: data_b/jiaxi.he/lab/euler/question/1/1.c.o
 
-.PHONY : data_b/jiaxi.he/lab/euler/1/1.o
-
-# target to build an object file
-data_b/jiaxi.he/lab/euler/1/1.c.o:
-	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/data_b/jiaxi.he/lab/euler/1/1.c.o
-.PHONY : data_b/jiaxi.he/lab/euler/1/1.c.o
-
-data_b/jiaxi.he/lab/euler/1/1.i: data_b/jiaxi.he/lab/euler/1/1.c.i
-
-.PHONY : data_b/jiaxi.he/lab/euler/1/1.i
-
-# target to preprocess a source file
-data_b/jiaxi.he/lab/euler/1/1.c.i:
-	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/data_b/jiaxi.he/lab/euler/1/1.c.i
-.PHONY : data_b/jiaxi.he/lab/euler/1/1.c.i
-
-data_b/jiaxi.he/lab/euler/1/1.s: data_b/jiaxi.he/lab/euler/1/1.c.s
-
-.PHONY : data_b/jiaxi.he/lab/euler/1/1.s
-
-# target to generate assembly for a file
-data_b/jiaxi.he/lab/euler/1/1.c.s:
-	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/data_b/jiaxi.he/lab/euler/1/1.c.s
-.PHONY : data_b/jiaxi.he/lab/euler/1/1.c.s
-
-data_b/jiaxi.he/lab/euler/2/2.o: data_b/jiaxi.he/lab/euler/2/2.c.o
-
-.PHONY : data_b/jiaxi.he/lab/euler/2/2.o
+.PHONY : data_b/jiaxi.he/lab/euler/question/1/1.o
 
 # target to build an object file
-data_b/jiaxi.he/lab/euler/2/2.c.o:
-	$(MAKE) -f CMakeFiles/2.dir/build.make CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/2/2.c.o
-.PHONY : data_b/jiaxi.he/lab/euler/2/2.c.o
+data_b/jiaxi.he/lab/euler/question/1/1.c.o:
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/data_b/jiaxi.he/lab/euler/question/1/1.c.o
+.PHONY : data_b/jiaxi.he/lab/euler/question/1/1.c.o
 
-data_b/jiaxi.he/lab/euler/2/2.i: data_b/jiaxi.he/lab/euler/2/2.c.i
+data_b/jiaxi.he/lab/euler/question/1/1.i: data_b/jiaxi.he/lab/euler/question/1/1.c.i
 
-.PHONY : data_b/jiaxi.he/lab/euler/2/2.i
+.PHONY : data_b/jiaxi.he/lab/euler/question/1/1.i
 
 # target to preprocess a source file
-data_b/jiaxi.he/lab/euler/2/2.c.i:
-	$(MAKE) -f CMakeFiles/2.dir/build.make CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/2/2.c.i
-.PHONY : data_b/jiaxi.he/lab/euler/2/2.c.i
+data_b/jiaxi.he/lab/euler/question/1/1.c.i:
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/data_b/jiaxi.he/lab/euler/question/1/1.c.i
+.PHONY : data_b/jiaxi.he/lab/euler/question/1/1.c.i
 
-data_b/jiaxi.he/lab/euler/2/2.s: data_b/jiaxi.he/lab/euler/2/2.c.s
+data_b/jiaxi.he/lab/euler/question/1/1.s: data_b/jiaxi.he/lab/euler/question/1/1.c.s
 
-.PHONY : data_b/jiaxi.he/lab/euler/2/2.s
+.PHONY : data_b/jiaxi.he/lab/euler/question/1/1.s
 
 # target to generate assembly for a file
-data_b/jiaxi.he/lab/euler/2/2.c.s:
-	$(MAKE) -f CMakeFiles/2.dir/build.make CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/2/2.c.s
-.PHONY : data_b/jiaxi.he/lab/euler/2/2.c.s
+data_b/jiaxi.he/lab/euler/question/1/1.c.s:
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/data_b/jiaxi.he/lab/euler/question/1/1.c.s
+.PHONY : data_b/jiaxi.he/lab/euler/question/1/1.c.s
+
+data_b/jiaxi.he/lab/euler/question/2/2.o: data_b/jiaxi.he/lab/euler/question/2/2.c.o
+
+.PHONY : data_b/jiaxi.he/lab/euler/question/2/2.o
+
+# target to build an object file
+data_b/jiaxi.he/lab/euler/question/2/2.c.o:
+	$(MAKE) -f CMakeFiles/2.dir/build.make CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/question/2/2.c.o
+.PHONY : data_b/jiaxi.he/lab/euler/question/2/2.c.o
+
+data_b/jiaxi.he/lab/euler/question/2/2.i: data_b/jiaxi.he/lab/euler/question/2/2.c.i
+
+.PHONY : data_b/jiaxi.he/lab/euler/question/2/2.i
+
+# target to preprocess a source file
+data_b/jiaxi.he/lab/euler/question/2/2.c.i:
+	$(MAKE) -f CMakeFiles/2.dir/build.make CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/question/2/2.c.i
+.PHONY : data_b/jiaxi.he/lab/euler/question/2/2.c.i
+
+data_b/jiaxi.he/lab/euler/question/2/2.s: data_b/jiaxi.he/lab/euler/question/2/2.c.s
+
+.PHONY : data_b/jiaxi.he/lab/euler/question/2/2.s
+
+# target to generate assembly for a file
+data_b/jiaxi.he/lab/euler/question/2/2.c.s:
+	$(MAKE) -f CMakeFiles/2.dir/build.make CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/question/2/2.c.s
+.PHONY : data_b/jiaxi.he/lab/euler/question/2/2.c.s
 
 # Help Target
 help:
@@ -250,12 +250,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... 2"
 	@echo "... 1"
-	@echo "... data_b/jiaxi.he/lab/euler/1/1.o"
-	@echo "... data_b/jiaxi.he/lab/euler/1/1.i"
-	@echo "... data_b/jiaxi.he/lab/euler/1/1.s"
-	@echo "... data_b/jiaxi.he/lab/euler/2/2.o"
-	@echo "... data_b/jiaxi.he/lab/euler/2/2.i"
-	@echo "... data_b/jiaxi.he/lab/euler/2/2.s"
+	@echo "... data_b/jiaxi.he/lab/euler/question/1/1.o"
+	@echo "... data_b/jiaxi.he/lab/euler/question/1/1.i"
+	@echo "... data_b/jiaxi.he/lab/euler/question/1/1.s"
+	@echo "... data_b/jiaxi.he/lab/euler/question/2/2.o"
+	@echo "... data_b/jiaxi.he/lab/euler/question/2/2.i"
+	@echo "... data_b/jiaxi.he/lab/euler/question/2/2.s"
 .PHONY : help
 
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "1"
   "1.pdb"
-  "CMakeFiles/1.dir/data_b/jiaxi.he/lab/euler/1/1.c.o"
+  "CMakeFiles/1.dir/data_b/jiaxi.he/lab/euler/question/1/1.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

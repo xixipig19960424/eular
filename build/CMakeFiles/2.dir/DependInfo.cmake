@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/data_b/jiaxi.he/lab/euler/2/2.c" "/data_b/jiaxi.he/lab/euler/build/CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/2/2.c.o"
+  "/data_b/jiaxi.he/lab/euler/question/2/2.c" "/data_b/jiaxi.he/lab/euler/build/CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/question/2/2.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../common"
-  "../1"
-  "../2"
+  "../question/1"
+  "../question/2"
   )
 
 # Targets to which this target links.

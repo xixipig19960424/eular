@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/data_b/jiaxi.he/lab/euler/1/1.c
+/data_b/jiaxi.he/lab/euler/question/1/1.c
 stdio.h
 -
 math.h

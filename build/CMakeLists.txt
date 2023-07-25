@@ -40,12 +40,12 @@ foreach(EXECUTABLE ${EXECUTABLES})
 
 #set .h path
 include_directories(
-    ${CMAKE_CURRENT_SOURCE_DIR}/../${EXECUTABLE}
+    ${CMAKE_CURRENT_SOURCE_DIR}/../question/${EXECUTABLE}
 )
 
 #set .c file
 aux_source_directory(
-    ${CMAKE_CURRENT_SOURCE_DIR}/../${EXECUTABLE}
+    ${CMAKE_CURRENT_SOURCE_DIR}/../question/${EXECUTABLE}
     src_list
 )
 

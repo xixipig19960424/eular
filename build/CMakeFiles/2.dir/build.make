@@ -57,27 +57,27 @@ include CMakeFiles/2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/2.dir/flags.make
 
-CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/2/2.c.o: CMakeFiles/2.dir/flags.make
-CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/2/2.c.o: /data_b/jiaxi.he/lab/euler/2/2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data_b/jiaxi.he/lab/euler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/2/2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/2/2.c.o   -c /data_b/jiaxi.he/lab/euler/2/2.c
+CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/question/2/2.c.o: CMakeFiles/2.dir/flags.make
+CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/question/2/2.c.o: /data_b/jiaxi.he/lab/euler/question/2/2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data_b/jiaxi.he/lab/euler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/question/2/2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/question/2/2.c.o   -c /data_b/jiaxi.he/lab/euler/question/2/2.c
 
-CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/2/2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/2/2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /data_b/jiaxi.he/lab/euler/2/2.c > CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/2/2.c.i
+CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/question/2/2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/question/2/2.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /data_b/jiaxi.he/lab/euler/question/2/2.c > CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/question/2/2.c.i
 
-CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/2/2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/2/2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /data_b/jiaxi.he/lab/euler/2/2.c -o CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/2/2.c.s
+CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/question/2/2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/question/2/2.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /data_b/jiaxi.he/lab/euler/question/2/2.c -o CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/question/2/2.c.s
 
 # Object files for target 2
 2_OBJECTS = \
-"CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/2/2.c.o"
+"CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/question/2/2.c.o"
 
 # External object files for target 2
 2_EXTERNAL_OBJECTS =
 
-2 : CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/2/2.c.o
+2 : CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/question/2/2.c.o
 2 : CMakeFiles/2.dir/build.make
 2 : CMakeFiles/2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/data_b/jiaxi.he/lab/euler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable 2"
