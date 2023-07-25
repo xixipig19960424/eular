@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/data_b/jiaxi.he/lab/euler/build/../1 -I/data_b/jiaxi.he/lab/euler/build/../2 
+C_INCLUDES = -I/data_b/jiaxi.he/lab/euler/build/../common -I/data_b/jiaxi.he/lab/euler/build/../1 -I/data_b/jiaxi.he/lab/euler/build/../2 
 

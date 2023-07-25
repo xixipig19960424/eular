@@ -31,6 +31,11 @@ set(
     2
 )
 
+#set common .h path
+include_directories(
+    ${CMAKE_CURRENT_SOURCE_DIR}/../common/
+)
+
 foreach(EXECUTABLE ${EXECUTABLES})
 
 #set .h path
