@@ -6,3 +6,15 @@
 
 #IncludeRegexTransform: 
 
+../common/timer.h
+stdio.h
+-
+time.h
+-
+
+/data_b/jiaxi.he/lab/euler/question/3/3.c
+stdio.h
+-
+timer.h
+/data_b/jiaxi.he/lab/euler/question/3/timer.h
+

@@ -85,6 +85,30 @@ file(INSTALL DESTINATION "/data_b/jiaxi.he/lab/euler/build/usr/bin" TYPE EXECUTA
   endif()
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}/data_b/jiaxi.he/lab/euler/build/usr/bin/3" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/data_b/jiaxi.he/lab/euler/build/usr/bin/3")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}/data_b/jiaxi.he/lab/euler/build/usr/bin/3"
+         RPATH "")
+  endif()
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/data_b/jiaxi.he/lab/euler/build/usr/bin/3")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "/data_b/jiaxi.he/lab/euler/build/usr/bin" TYPE EXECUTABLE FILES "/data_b/jiaxi.he/lab/euler/build/3")
+  if(EXISTS "$ENV{DESTDIR}/data_b/jiaxi.he/lab/euler/build/usr/bin/3" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/data_b/jiaxi.he/lab/euler/build/usr/bin/3")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/data_b/jiaxi.he/lab/euler/build/usr/bin/3")
+    endif()
+  endif()
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()

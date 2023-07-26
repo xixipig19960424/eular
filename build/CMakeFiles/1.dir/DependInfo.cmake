@@ -13,6 +13,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../common"
   "../question/1"
   "../question/2"
+  "../question/3"
   )
 
 # Targets to which this target links.

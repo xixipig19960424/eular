@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/data_b/jiaxi.he/lab/euler/question/2/2.c" "/data_b/jiaxi.he/lab/euler/build/CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/question/2/2.c.o"
+  "/data_b/jiaxi.he/lab/euler/question/3/3.c" "/data_b/jiaxi.he/lab/euler/build/CMakeFiles/3.dir/data_b/jiaxi.he/lab/euler/question/3/3.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

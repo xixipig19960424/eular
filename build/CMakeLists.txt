@@ -29,6 +29,7 @@ set(
     EXECUTABLES
     1
     2
+    3
 )
 
 #set common .h path

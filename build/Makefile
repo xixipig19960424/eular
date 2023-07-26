@@ -170,6 +170,19 @@ depend:
 .PHONY : 2/fast
 
 #=============================================================================
+# Target rules for targets named 3
+
+# Build rule for target.
+3 : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 3
+.PHONY : 3
+
+# fast build rule for target.
+3/fast:
+	$(MAKE) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/build
+.PHONY : 3/fast
+
+#=============================================================================
 # Target rules for targets named 1
 
 # Build rule for target.
@@ -236,6 +249,33 @@ data_b/jiaxi.he/lab/euler/question/2/2.c.s:
 	$(MAKE) -f CMakeFiles/2.dir/build.make CMakeFiles/2.dir/data_b/jiaxi.he/lab/euler/question/2/2.c.s
 .PHONY : data_b/jiaxi.he/lab/euler/question/2/2.c.s
 
+data_b/jiaxi.he/lab/euler/question/3/3.o: data_b/jiaxi.he/lab/euler/question/3/3.c.o
+
+.PHONY : data_b/jiaxi.he/lab/euler/question/3/3.o
+
+# target to build an object file
+data_b/jiaxi.he/lab/euler/question/3/3.c.o:
+	$(MAKE) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/data_b/jiaxi.he/lab/euler/question/3/3.c.o
+.PHONY : data_b/jiaxi.he/lab/euler/question/3/3.c.o
+
+data_b/jiaxi.he/lab/euler/question/3/3.i: data_b/jiaxi.he/lab/euler/question/3/3.c.i
+
+.PHONY : data_b/jiaxi.he/lab/euler/question/3/3.i
+
+# target to preprocess a source file
+data_b/jiaxi.he/lab/euler/question/3/3.c.i:
+	$(MAKE) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/data_b/jiaxi.he/lab/euler/question/3/3.c.i
+.PHONY : data_b/jiaxi.he/lab/euler/question/3/3.c.i
+
+data_b/jiaxi.he/lab/euler/question/3/3.s: data_b/jiaxi.he/lab/euler/question/3/3.c.s
+
+.PHONY : data_b/jiaxi.he/lab/euler/question/3/3.s
+
+# target to generate assembly for a file
+data_b/jiaxi.he/lab/euler/question/3/3.c.s:
+	$(MAKE) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/data_b/jiaxi.he/lab/euler/question/3/3.c.s
+.PHONY : data_b/jiaxi.he/lab/euler/question/3/3.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -249,6 +289,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 2"
+	@echo "... 3"
 	@echo "... 1"
 	@echo "... data_b/jiaxi.he/lab/euler/question/1/1.o"
 	@echo "... data_b/jiaxi.he/lab/euler/question/1/1.i"
@@ -256,6 +297,9 @@ help:
 	@echo "... data_b/jiaxi.he/lab/euler/question/2/2.o"
 	@echo "... data_b/jiaxi.he/lab/euler/question/2/2.i"
 	@echo "... data_b/jiaxi.he/lab/euler/question/2/2.s"
+	@echo "... data_b/jiaxi.he/lab/euler/question/3/3.o"
+	@echo "... data_b/jiaxi.he/lab/euler/question/3/3.i"
+	@echo "... data_b/jiaxi.he/lab/euler/question/3/3.s"
 .PHONY : help
 
 
