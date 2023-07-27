@@ -26,10 +26,7 @@ execute_process(COMMAND ${CMAKE_COMMAND} -E make_directory ${INCLUDE_})
 
 #set object
 set(
-    EXECUTABLES
-    1
-    2
-    3
+    EXECUTABLES 1 2 3 4
 )
 
 #set common .h path

@@ -1,1 +1,0 @@
-/usr/bin/cc   -rdynamic CMakeFiles/1.dir/data_b/jiaxi.he/lab/euler/question/1/1.c.o  -o 1 
