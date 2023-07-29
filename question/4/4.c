@@ -3,7 +3,7 @@
 
 #define NUM_IN 1000
 
-#if 0
+#if 1
 int is_palindrome(int a){
     if(a < 10) return 1;
 

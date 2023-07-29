@@ -26,13 +26,16 @@ execute_process(COMMAND ${CMAKE_COMMAND} -E make_directory ${INCLUDE_})
 
 #set object
 set(
-    EXECUTABLES 1 2 3 4
+    EXECUTABLES 1 2 3 4 5
 )
 
 #set common .h path
 include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/../common/
 )
+
+#debug
+set(CMAKE_BUILD_TYPE Debug)
 
 foreach(EXECUTABLE ${EXECUTABLES})
 
