@@ -26,23 +26,34 @@ execute_process(COMMAND ${CMAKE_COMMAND} -E make_directory ${INCLUDE_})
 
 #set object
 set(
-    EXECUTABLES 1 2 3 4 5 6
+    EXECUTABLES 1 2 3 4 5 6 7
 )
 
 #set common .h path
 include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/../common/
+    ${CMAKE_CURRENT_SOURCE_DIR}/../common/math
 )
 
 #debug
 set(CMAKE_BUILD_TYPE Debug)
 
-foreach(EXECUTABLE ${EXECUTABLES})
+#math
+set(src_list "")
+aux_source_directory(
+    ${CMAKE_CURRENT_SOURCE_DIR}/../common/math
+    src_list
+)
+add_library(math_ SHARED ${src_list})
+set_target_properties(math_ PROPERTIES OUTPUT_NAME "math_")
 
+foreach(EXECUTABLE ${EXECUTABLES})
 #set .h path
 include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/../question/${EXECUTABLE}
 )
+
+set(src_list "")
 
 #set .c file
 aux_source_directory(
@@ -52,6 +63,11 @@ aux_source_directory(
 
 #create
 add_executable(${EXECUTABLE} ${src_list})
+
+#link
+target_link_libraries(${EXECUTABLE} 
+    math_
+)
 
 #install
 install(

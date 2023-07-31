@@ -32,7 +32,6 @@ int is_palindrome(int x) {
     }
     return raw == t;
 }
-
 #endif
 
 int main(){
